@@ -143,7 +143,7 @@ public class MEAService {
       int currentYear = year + 1900;
       String incidentNo = "INC" + details.getCountry_code() + currentYear + sequenceNo;
       details.setIncident_number(incidentNo);
-      details.setTracking_link("http://meaassistants.centralindia.cloudapp.azure.com:8080/incident-status/" + incidentNo);
+      details.setTracking_link("http://164.52.212.74:82/incident-status/" + incidentNo);
    }
 
    public void getByIncidentNumber(MeaRequest request, MeaResponse response) throws MEAException {
