@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "1f148164-59c8-46d5-9189-cfd9edcda8e4",
+		"name": "MEA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26580343",
+		"_collection_link": "https://restless-zodiac-85443.postman.co/workspace/MEA~15a50ca1-2049-4b73-9b60-a74040c1bdd8/collection/26580343-1f148164-59c8-46d5-9189-cfd9edcda8e4?action=share&source=collection_link&creator=26580343"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8099/mea-service/mea/getByIncidentNumberHistory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RequestInfo\": {\r\n        \"apiId\": \"string\",\r\n        \"ver\": \"string\",\r\n        \"ts\": 0,\r\n        \"action\": \"string\",\r\n        \"did\": \"string\",\r\n        \"key\": \"string\",\r\n        \"msgId\": \"string\",\r\n        \"requesterId\": \"string\",\r\n        \"authToken\": \"f58c1407-d9ec-44c7-8670-eab6fc533c96\",\r\n        \"userId\": \"4\"\r\n    },\r\n   \r\n        \"incidentNo\": \"INCIN20240020\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8099/mea-service/mea/getByIncidentNumberHistory",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8099",
+					"path": [
+						"mea-service",
+						"mea",
+						"getByIncidentNumberHistory"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://127.0.0.1:8099/mea-service/mea/getByIncidentNumberHistory' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"RequestInfo\": {\r\n        \"apiId\": \"string\",\r\n        \"ver\": \"string\",\r\n        \"ts\": 0,\r\n        \"action\": \"string\",\r\n        \"did\": \"string\",\r\n        \"key\": \"string\",\r\n        \"msgId\": \"string\",\r\n        \"requesterId\": \"string\",\r\n        \"authToken\": \"f58c1407-d9ec-44c7-8670-eab6fc533c96\",\r\n        \"userId\": \"4\"\r\n    },\r\n   \r\n        \"incidentNo\": \"INCIN20240020\"\r\n    \r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8099/mea-service/mea/getByIncidentId",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RequestInfo\": {\r\n        \"apiId\": \"string\",\r\n        \"ver\": \"string\",\r\n        \"ts\": 0,\r\n        \"action\": \"string\",\r\n        \"did\": \"string\",\r\n        \"key\": \"string\",\r\n        \"msgId\": \"string\",\r\n        \"requesterId\": \"string\",\r\n        \"authToken\": \"f58c1407-d9ec-44c7-8670-eab6fc533c96\",\r\n        \"userId\": \"4\"\r\n    },\r\n   \r\n        \"incidentNo\": \"INCIN20240020\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8099/mea-service/mea/getByIncidentId",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8099",
+					"path": [
+						"mea-service",
+						"mea",
+						"getByIncidentId"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://127.0.0.1:8099/mea-service/mea/getByIncidentNumberHistory' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"RequestInfo\": {\r\n        \"apiId\": \"string\",\r\n        \"ver\": \"string\",\r\n        \"ts\": 0,\r\n        \"action\": \"string\",\r\n        \"did\": \"string\",\r\n        \"key\": \"string\",\r\n        \"msgId\": \"string\",\r\n        \"requesterId\": \"string\",\r\n        \"authToken\": \"f58c1407-d9ec-44c7-8670-eab6fc533c96\",\r\n        \"userId\": \"4\"\r\n    },\r\n   \r\n        \"incidentNo\": \"INCIN20240020\"\r\n    \r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8099/mea-service/mea/getByIncidentNumberHistory Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RequestInfo\": {\r\n        \"apiId\": \"string\",\r\n        \"ver\": \"string\",\r\n        \"ts\": 0,\r\n        \"action\": \"string\",\r\n        \"did\": \"string\",\r\n        \"key\": \"string\",\r\n        \"msgId\": \"string\",\r\n        \"requesterId\": \"string\",\r\n        \"authToken\": \"f58c1407-d9ec-44c7-8670-eab6fc533c96\",\r\n        \"userId\": \"4\"\r\n    },\r\n   \r\n       \"incidentRequest\":{\r\n            \"passport_number\": \"TESTPASS1\",\r\n            \"passport_expiry_date\": null,\r\n            \"physical_passport_availability\": null,\r\n            \"caller_name\": null,\r\n            \"age\": null,\r\n            \"gender\": null,\r\n            \"date_of_birth\": null,\r\n            \"place_of_birth\": null,\r\n            \"lat\": \"33.2778\",\r\n            \"lon\": \"75.3412\",\r\n            \"current_location\": \"Jammu & Kashmir, India\",\r\n            \"photo_upload_of_the_person\": null,\r\n            \"image_upload_of_passport\": null,\r\n            \"description\": null,\r\n            \"no_of_family_members\": null,\r\n            \"incident_number\": null,\r\n            \"tracking_link\": null,\r\n            \"location_in_india\": null,\r\n            \"contact_number_in_india\": null,\r\n            \"current_contact_number\": null,\r\n            \"name_of_the_family_members\": null,\r\n            \"medical_emergency_details\": null,\r\n            \"email_id\": null,\r\n            \"submitted_by\": null,\r\n            \"country_code\": \"91\",\r\n            \"incident_type\": null,\r\n            \"caller_relation\": null,\r\n            \"overseas_indian_name\": null,\r\n            \"location_overseas_indian\": null,\r\n            \"current_country_overseas_indian\": null,\r\n            \"accompany_family_member\": null,\r\n            \"accompany_family_member_female_children\": null,\r\n            \"place_travel_india\": null,\r\n            \"status\": null,\r\n            \"action_taken\": null,\r\n            \"is_passport_valid\": null,\r\n            \"submitted_on\": null,\r\n            \"modified_on\": null,\r\n            \"aadhaar_no\": null,\r\n            \"history\": null\r\n\r\n       }\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8099/mea-service/mea/saveIncident",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8099",
+					"path": [
+						"mea-service",
+						"mea",
+						"saveIncident"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://127.0.0.1:8099/mea-service/mea/getByIncidentNumberHistory' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"RequestInfo\": {\r\n        \"apiId\": \"string\",\r\n        \"ver\": \"string\",\r\n        \"ts\": 0,\r\n        \"action\": \"string\",\r\n        \"did\": \"string\",\r\n        \"key\": \"string\",\r\n        \"msgId\": \"string\",\r\n        \"requesterId\": \"string\",\r\n        \"authToken\": \"f58c1407-d9ec-44c7-8670-eab6fc533c96\",\r\n        \"userId\": \"4\"\r\n    },\r\n   \r\n        \"incidentNo\": \"INCIN20240020\"\r\n    \r\n}'"
+			},
+			"response": []
+		}
+	]
+}
